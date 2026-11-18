@@ -1,0 +1,90 @@
+﻿=== RELEASE AUDIT  2026-11-14 19:40 ===
+
+-- IN BUILD --
+assets: 46, total: 51,4 MB
+
+-- TOP 25 LARGEST IN BUILD --
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-4.png
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-10.png
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-9.png
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-12.png
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-3.png
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-11.png
+     6,0 MB   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-1.png
+     3,4 MB   Assets/Resources/Skins/dark_willow.fbx
+     0,7 MB   Assets/Resources/Skins/Textures/dark_willow_base_color.png
+     0,7 MB   Assets/Resources/Skins/Textures/dark_willow_base_normal.png
+     0,7 MB   Assets/Resources/Skins/Textures/dark_willow_armor_normal.png
+     0,7 MB   Assets/Resources/Textures/cloud1.jpg
+     0,7 MB   Assets/Resources/Textures/cloud2.jpg
+     0,3 MB   Assets/Resources/Skins/Textures/dark_willow_wings_normal.png
+     0,3 MB   Assets/Resources/Skins/Textures/dark_willow_armor_color.png
+     0,3 MB   Assets/Resources/Textures/rock.jpg
+     0,3 MB   Assets/Resources/Fonts/Inter-Bold.otf
+     0,3 MB   Assets/Resources/Fonts/Inter-SemiBold.otf
+     0,2 MB   Assets/Resources/Fonts/Inter-Regular.otf
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_head_normal.png
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_head_color.png
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_offhand_normal.png
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_wings_color.png
+     0,1 MB   Assets/Resources/Skins/Textures/dark_willow_offhand_color.png
+     0,1 MB   Assets/Resources/Skins/lowpolymage.fbx
+
+-- ALL Assets/Resources (fully included) --
+     3,4 MB   Assets/Resources/Skins/dark_willow.fbx
+     0,7 MB   Assets/Resources/Skins/Textures/dark_willow_base_color.png
+     0,7 MB   Assets/Resources/Skins/Textures/dark_willow_base_normal.png
+     0,7 MB   Assets/Resources/Skins/Textures/dark_willow_armor_normal.png
+     0,7 MB   Assets/Resources/Textures/cloud1.jpg
+     0,7 MB   Assets/Resources/Textures/cloud2.jpg
+     0,3 MB   Assets/Resources/Skins/Textures/dark_willow_wings_normal.png
+     0,3 MB   Assets/Resources/Skins/Textures/dark_willow_armor_color.png
+     0,3 MB   Assets/Resources/Textures/rock.jpg
+     0,3 MB   Assets/Resources/Fonts/Inter-Bold.otf
+     0,3 MB   Assets/Resources/Fonts/Inter-SemiBold.otf
+     0,2 MB   Assets/Resources/Fonts/Inter-Regular.otf
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_head_normal.png
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_head_color.png
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_offhand_normal.png
+     0,2 MB   Assets/Resources/Skins/Textures/dark_willow_wings_color.png
+     0,1 MB   Assets/Resources/Skins/Textures/dark_willow_offhand_color.png
+     0,1 MB   Assets/Resources/Skins/lowpolymage.fbx
+     0,0 MB   Assets/Resources/Fonts/Inter-LICENSE.txt
+     0,0 MB   Assets/Resources/Skyboxes/sky-10.mat
+     0,0 MB   Assets/Resources/Skyboxes/sky-11.mat
+     0,0 MB   Assets/Resources/Skyboxes/sky-9.mat
+     0,0 MB   Assets/Resources/Skyboxes/sky-1.mat
+     0,0 MB   Assets/Resources/Skyboxes/sky-4.mat
+     0,0 MB   Assets/Resources/Skyboxes/sky-3.mat
+Resources total: 9,3 MB
+
+-- JUNK CANDIDATES --
+
+-- Debug.Log IN RUNTIME CODE --
+Assets/Scripts/Core/Textures.cs:80  Debug.LogWarning("Textures: " + src.name + " не помечена Read/Write — см. Assets/Editor/TextureImport.cs. Вид " + kind + " остаётся процедурным.");
+Assets/Scripts/Core/Textures.cs:120  Debug.LogWarning("Textures: нет файла Resources/Textures/" + ExternalFiles[key] +
+Assets/Scripts/Dev/DevCheats.cs:238  Debug.Log("[DEV] " + message);
+Assets/Scripts/UI/UIFactory.cs:43  Debug.LogError("[UI] шрифт не найден — весь текст в сборке будет пустым");
+Assets/Scripts/UI/UIFactory.cs:47  Debug.LogError("[UI] в шрифте '" + f.name + "' нет кириллицы — буквы пропадут в WebGL");
+Assets/Scripts/Yandex/YandexAnalytics.cs:10  Debug.Log("[Yandex] goal: " + name);
+
+-- PLAYER SETTINGS --
+companyName:   Tanks in Greece
+productName:   ParkourInParadise
+bundleVersion: 1.0
+orientation:   AutoRotation
+web w x h:     1920 x 1080
+webGL: decompression True
+scenes in build: 3
+
+-- SKYBOX PACK --
+pack on disk: 262,4 MB
+pack files pulled into build: 8
+   Assets/8K Skybox Pack Free/Skyboxes/Material/sky-12.mat
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-1.png
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-10.png
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-11.png
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-12.png
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-3.png
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-4.png
+   Assets/8K Skybox Pack Free/Skyboxes/Texture/sky-9.png
